@@ -1,0 +1,11 @@
+* Introduction
+This document is a set of programming lessons for beginner to
+intermediate learners. It was written for the ENS Rennes in 2015, but
+can be reused by others under the terms of the [[http://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA-4.0]] licence.
+
+* Environment Setup
+
+The following softwares are mandatory for this lesson:
+
+ - [[https://www.python.org/downloads/release/python-343/][Python 3]].
+ - 
