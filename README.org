@@ -1,0 +1,31 @@
+* Retrogames for beginners
+
+Welcome to this programming project for intermediate learners. You
+will improve your Python programming skills through the creation of
+games from the eighties. We will program three /retrogames/ of
+increasing complexity, ending with the nice [[https://en.wikipedia.org/wiki/Oids][OIDS]] game.
+
+If you are a complete beginner in Python, you should first spend some
+time with the [[http://webloria.loria.fr/~quinson/PLM/][PLM]] (Programmer's Learning Machine) and come back after.
+
+To start now, just proceed to the [first
+lesson](https://github.com/mquinson/retrogames/blob/master/retrogames.org).
+
+* Footer 
+
+This project was written as an introductory programming project for
+the ENS Rennes in 2015 by Martin Quinson, but can be reused by others
+under the terms of the [[http://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA-4.0]] licence.
+
+This project is based on the excellent game engine authored by John
+Aycock, [[available here][http://pages.cpsc.ucalgary.ca/~aycock/]] (in tab Papers), or
+directly by following [[this
+ link][http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz]].  
+More information about the engine is available from the corresponding
+paper:
+
+        J. Aycock, E. Pitout, and S. Storteboom. A Game Engine in Pure
+        Python for CS1: Design, Experience, and Limits. 20th ACM Annual
+        Conference on Innovation and Technology in Computer Science
+        Education, 2015, pp. 93-98.
+

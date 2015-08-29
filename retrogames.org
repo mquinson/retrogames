@@ -1,14 +1,3 @@
-* Introduction
-Welcome to this programming lessons for intermediate learners. You
-will improve your programming skills through the creation of
-games from the eighties. We will program three /retrogames/ of
-increasing complexity, ending with the nice [[https://en.wikipedia.org/wiki/Oids][OIDS]] game.
-
-The only prerequisite is some basic knowledge of the Python
-language. If you are a complete beginner in Python, you should start
-with the [[http://webloria.loria.fr/~quinson/PLM/][PLM]] (Programmer's Learning Machine) and come back after the
-first PLM lesson.
-
 * Environment Setup
 ** Installing Linux
 
@@ -130,8 +119,3 @@ sudo apt-get install python3-tk
 Simply download [[http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz][the archive]] from the author site, and unpack it
 somewhere on your computer, and you're set. You can start writing your
 first game.
-
-* Footer
-This document was written as an introductory project for the ENS
-Rennes in 2015, but can be reused by others under the terms of the
-[[http://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA-4.0]] licence.
