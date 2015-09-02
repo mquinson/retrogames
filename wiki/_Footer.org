@@ -1,0 +1,9 @@
+This project was written as an introductory programming project for
+the ENS Rennes in 2015 by Martin Quinson, but can be reused by others
+under the terms of the [[http://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA-4.0]] licence.
+
+This project is based on the excellent [[http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz][game engine]] authored by John
+Aycock. See the corresponding paper for details:
+        J. Aycock, E. Pitout, and S. Storteboom. A Game Engine in Pure
+        Python for CS1: Design, Experience, and Limits.
+
