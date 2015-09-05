@@ -12,7 +12,7 @@ programming. Some missions of the PLM could reveal interesting and
 challenging to intermediate and advanced learners too ;)
 
 You also need a working environment with Python3 and [a decent code
-editor](A-decent-code-editor.md). You can choose to use whichever
+editor](A-decent-code-editor). You can choose to use whichever
 environment you want, but I will only be able to [help you with
 Linux](Installing-Python3-on-Linux) questions as it is the only
 systems that I really know. It does NOT mean that you have to install
