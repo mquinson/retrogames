@@ -140,7 +140,7 @@ And then write your collision functions for ```{Ground, Lander}``` and
 ![Second screencast of the Lander game](lander-step2.gif)
 
 Since the ground collision detection involves quite a lot of
-computation, we could precompute the ```ymin``` and ```ymax``` for
+computation, we could compute the ```ymin``` and ```ymax``` in advance for
 each lunar ```x``` position, but it does not seem to be necessary on
 my machine so I did not do it yet.
 
@@ -158,8 +158,6 @@ small map, and it will only become worse with larger maps. On the left
 and right side, you could either keep the wrapping feature or
 implement walls (it's your game after all).
 
-(todo: screencast of this version)
-
 ## Cleanups, and other extensions
 
 This is it, your game is almost done. Remember to clean it up before
@@ -167,13 +165,5 @@ moving to the next project: you will reuse your code again. So rename
 and document your functions, sort them in a logical order and kill the
 dead code. Print the documentation of your project with epydoc.
 
-There is also several extensions that you may want to implement:
-
-- Several levels: You just have to pass the right set of points when creating  the ground.
-- Keep track of the fuel level: The Up key is ineffective when out of
-  fuel. You may use several shapes to represent the fuel level, or
-  write it on screen.
-- Graphical hints on flat areas that are wide enough to land.
-- A campaign mode where the fuel that you save on one map is credited on the next map.
 
 Then, when you want, move on to the next game project, [[OIDS]].
