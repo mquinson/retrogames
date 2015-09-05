@@ -40,6 +40,6 @@ Text](http://www.sublimetext.com/). Windows people sometimes prefer
 any of these tools as I am forbidden to read their source code (ask me
 if you want an explanation). 
 
-Finally, the python documentation lists [several dozen of
+Finally, the Python documentation lists [several dozen of
 editors](https://wiki.python.org/moin/PythonEditors) that you can
 choose from.

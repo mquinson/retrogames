@@ -19,5 +19,5 @@ systems that I really know. It does NOT mean that you have to install
 Linux for that assignment.
 
 
-If you are ready, proceed to your first game creation: [[Scratch the rocket]].
+When you are ready, proceed to your first game creation: [[Scratch the rocket]].
 
