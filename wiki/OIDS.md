@@ -28,8 +28,11 @@ Here are some ideas:
 - Graphical hints on flat areas that are wide enough to land.
 - A campaign mode where the fuel that you save on one map is credited
   on the next map.
-- A random terrain generator. A
-  [perlin noise](http://gamedev.stackexchange.com/questions/20588/how-can-i-generate-worms-style-terrain) may help, but there is some other interesting technics, too.
+- A random terrain generator. [Procedural generation](http://blog.runevision.com/2015/08/procedural-world-potentials-simulation.html)
+  is very appealing, although a
+  [perlin noise](http://gamedev.stackexchange.com/questions/20588/how-can-i-generate-worms-style-terrain) 
+  may be enough. Of course, there is a lot of other interesting
+  technics that you could leverage too.
 
 On the path, try to learn from this experience. Think about the
 algorithms that you are using in your game, and try to evaluate how
