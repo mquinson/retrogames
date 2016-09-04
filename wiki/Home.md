@@ -6,7 +6,7 @@ _retrogames_ of increasing complexity.
 
 The only prerequisites is some basic knowledge of the Python
 programming language. Absolute Python beginners should first spend
-some time on [[the PLM|http://webloria.loria.fr/~quinson/PLM/]], which
+some time on [[the PLM|http://plm.telecomnancy.univ-lorraine.fr/]], which
 is an online learning environment to learn the basics of
 programming. Some missions of the PLM could reveal interesting and
 challenging to intermediate and advanced learners too ;)
