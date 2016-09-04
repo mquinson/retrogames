@@ -4,8 +4,13 @@ many sensible editors out there, and you should search for the one
 that you prefer.
 
 Unless you have a good reason, **you are strongly advised to use
-[geany](www.geany.org/) for this assignment**. The rest of this page
+[geany](www.geany.org/) for this project**. The rest of this page
 is there for your erudition.
+
+A lot of people told me that [Atom](https://atom.io/) is a very good
+code editor, both lightweight and powerful. It still misses some
+features so I did not switched myself, but you definitely want to give
+it a try.
 
 Personally, I code using [Eclipse](http://www.eclipse.org) myself, but
 I'm not sure that I would advise you to start learning with Eclipse.
@@ -15,11 +20,6 @@ and nice spoon, or an heavy-duty excavator? If you decide to go for the
 powerful excavator, pick the Java version of eclipse, then add the
 [PyDev](http://marketplace.eclipse.org/content/pydev-python-ide-eclipse)
 plugin.
-
-A lot of people told me that [Atom](https://atom.io/) is a very good
-code editor, both lightweighted and powerful. It still misses some
-Eclipse feature so I did not switched myself, but you definitely want
-to give it a try.
 
 When not using Eclipse, I am a happy
 [Emacs](https://www.gnu.org/software/emacs/) user. That's another

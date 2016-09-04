@@ -3,8 +3,16 @@ probably have to have a Linux partition at some point, or at least a
 Linux virtual machine. But don't worry, using Linux is very easy
 nowadays. In my opinion, Linux is even much simpler and more intuitive
 (once you get the general ideas) than Windows or Mac. If you have
-issues mastering your Windows system, I think that it is not just you.
-You should try Linux to see whether it's a better fit for you. 
+issues mastering your Windows system, then is not just you. Windows is
+actually difficult to master.  You should try Linux to see whether
+it's a better fit for you.
+
+**That being said, the first steps with Linux may be difficult.** The
+strong point of Linux is that there is a philosophy underlying, so
+when you start getting it, you get it faster. But there is still a
+learning curve, of course. Of course, nobody knows it before getting
+introduced to it. But the good news is that I am willing to help you
+master your system. **The only stupid questions are the unasked ones.**
 
 This page describes several ways to install Linux:
 - [[In a partition of your disk|Installing-Python3-on-Linux#installing-linux-in-a-partition]], the prefered way.
@@ -85,33 +93,3 @@ and maybe better maintained.
 But I cannot tell for sure: I have a real Linux partition and don't use
 such solution very often.
 
-## Installing a decent editor
-
-There are many sensible editors out there, and you should search for
-the one that you prefer.
-
-I often use [[Eclipse|http://www.eclipse.org]] myself (pick the Java
-version, then add the
-[[PyDev|http://marketplace.eclipse.org/content/pydev-python-ide-eclipse]]
-plugin -- prefer a manual download to an Ubuntu package). Agreed, that
-software is huge (more than 1.5Gb of RAM), and it's easy to get lost
-when you start with it. But if you want to dig a swimming pool, will
-you get a light and nice spoon, or an heavy excavator?
-
-Real hackers will certainly prefer Vim. You can be certain that it is
-installed on every Unix box that you will ever encounter. Even if I
-don't use it when I have the choice, I learned its basic usage over
-the years. This [[online game|http://vim-adventures.com/]]
-constitutes a perfect introduction to Vim. And it's fun too, so you
-can play it even if you don't plan to use Vim on a day-to-day basis :)
-
-When not using Eclipse, I'm an happy
-[[Emacs|https://www.gnu.org/software/emacs/]] user. That's another
-venerable editor (both emacs and Vim came out in 1976), which main
-feature is its configuration power: you can do everything in emacs,
-provided that you configured it correctly, or developed the right
-plugin. But that's also its main drawback: configuring the perfect
-environment can become rather time consuming. For now, if you go for
-emacs (which would earn you my respect), you should just add the
-following to the file ~/.emacs to enable Ctrl-C and friends.
-```(cua-mode t)```
