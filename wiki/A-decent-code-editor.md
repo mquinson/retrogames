@@ -26,7 +26,7 @@ When not using Eclipse, I am a happy
 venerable editor (both emacs and Vim first came out in 1976), which
 main feature is its configuration power: you can do everything in
 emacs, provided that you configure it correctly (or develop the
-right plugin=. But that's also its main drawback: configuring the
+right plugin). But that's also its main drawback: configuring the
 perfect environment can become very time consuming. For now, if you
 go for emacs (which would earn you my respect), you should just add
 the following to the file ~/.emacs to enable Ctrl-C and friends.
