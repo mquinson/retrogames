@@ -1,5 +1,5 @@
 This project was written as an introductory programming project for
-the ENS Rennes in 2015-2016 by Martin Quinson, but can be reused by others
+the ENS Rennes by Martin Quinson, but can be reused by others
 under the terms of the [[http://creativecommons.org/licenses/by-sa/4.0/][CC-BY-SA-4.0]] licence.
 
 This project is based on the excellent [[http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz][game engine]] authored by John
