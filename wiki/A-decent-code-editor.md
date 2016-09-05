@@ -4,7 +4,7 @@ many sensible editors out there, and you should search for the one
 that you prefer.
 
 Unless you have a good reason, **you are strongly advised to use
-[geany](www.geany.org/) for this project**. The rest of this page
+[geany](http://www.geany.org/) for this project**. The rest of this page
 is there for your erudition.
 
 A lot of people told me that [Atom](https://atom.io/) is a very good
