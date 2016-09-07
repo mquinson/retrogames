@@ -112,10 +112,14 @@ in practice when you code), then you can easily restart from your backup.
 
 For now, it's not a rocket, it's a square. Not a surprise that it
 flies so badly! Have a look at ```eg-poly.py``` and register a nice
-lunar lander shape to the engine, and use it in your game. Hints: you
-need to import the Python [turtle
-module](https://docs.python.org/3/library/turtle.html), and set your
-heading to 90 so that your rocket looks upside.
+lunar lander shape to the engine, and use it in your game. Things will
+be easier later if your rocket is nicely round. Hints: you need to
+import the Python [turtle
+module](https://docs.python.org/3/library/turtle.html). You can draw
+your shape with the turtle interface (turn left, right, etc), but it's
+much easier to pass a list of points into a "compound" shape. Also,
+set your heading to 90 so that your rocket looks upside.
+
 ``` python
 	def heading(self):
 		return 90
