@@ -5,7 +5,8 @@ editor](Installing-Python3-on-Linux#installing-a-decent-editor).
 Install python3 to get the engine working (```sudo apt-get install
 python3-tk``` if you happen to use a Linux machine).  And finally,
 download and unpack the [game
-engine](http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz).
+engine](http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz) ([zip
+archive](http://pages.cpsc.ucalgary.ca/~aycock/engine.zip)).
 
 You can shortly try the provided games as an appetizer:
 ```
