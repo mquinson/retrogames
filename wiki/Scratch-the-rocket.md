@@ -16,11 +16,11 @@ python3 asteroids.py
 python3 target.py
 ```
 
-You can try to read the source code of these game but their complexity
-is not a good introduction to the framework.  You could prefer the
-eg-*.py example files that are much simpler. 
+Do not try to read these games: they are somewhat complex and won't
+help you understanding how to proceed. Instead, prefer the eg-*.py
+example files that are much simpler. 
 
-Please have a look at the box example, reproduced here:
+Here is the [```eg-box.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-box.py) example:
 ``` python
 import engine
 
@@ -65,14 +65,16 @@ and play a bit with the
 [random.randrange()](https://docs.python.org/3/library/random.html#random.randrange)
 function to get your square moving frantically on screen.
 
-Once it's done, have a look at the eg-keybox.py example, and make sure
-that the "game" stops when the Escape key is pressed. Check the (very
+Once it's done, have a look at the
+[```eg-keybox.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-keybox.py)
+example, and make sure that the "game" stops when the Escape key is pressed. Check the (very
 short) [API
 reference](https://github.com/mquinson/retrogames/blob/master/engine-reference.pdf)
 to see how to stop the engine.
 
-You can also learn from ```eg-box-exit.py``` to ensure that your game
-stops when the box moves out ot the screen.
+You can also learn from
+[```eg-box-exit.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-box-exit.py)
+to ensure that your game stops when the box moves out ot the screen.
 
 ## A game skeleton
 
@@ -105,16 +107,21 @@ It's turning into something already! Do not forget to backup a version
 of your code now. When you program, you need to backup many versions
 of your code. As a rule of thumb, as soon as a feature is working, you
 should make a backup before starting the next feature. That way, if
-you screw it up when implementing your next feature (which will happen
-in practice when you code), then you can easily restart from your backup.
+you screw it up when implementing your next feature (which happens
+rather often to even seasoned programmers), then you can easily
+restart from your backup. If you know how, you should even use
+[git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+to handle your backups but don't loose too much time on this now: Stay
+focused on your game! ;)
 
 ## Adding some flesh
 
 For now, it's not a rocket, it's a square. Not a surprise that it
-flies so badly! Have a look at ```eg-poly.py``` and register a nice
-lunar lander shape to the engine, and use it in your game. Things will
-be easier later if your rocket is nicely round. Hints: you need to
-import the Python [turtle
+flies so badly! Have a look at 
+[```eg-poly.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-poly.py),
+register a nice lunar lander shape to the engine, and use it in your
+game. Things will be easier later if your rocket is nicely round.
+Hints: you need to import the Python [turtle
 module](https://docs.python.org/3/library/turtle.html). You can draw
 your shape with the turtle interface (turn left, right, etc), but it's
 much easier to pass a list of points into a "compound" shape. Also,
@@ -172,7 +179,8 @@ do so. I hope that it becomes an automatism already.
 ## Touch down and win (or not)
 
 And now, we need to add the ground. The easiest is to declare a
-compound shape, and add a set of points in it:
+compound shape, and add a set of points in it with a flat area right
+under the rocket.
 
 ``` python
 	s = turtle.Shape("compound")
@@ -207,6 +215,5 @@ your code!
 Instead of a global named speed, you could use the variable
 lander.deltay. Actually, every game object as a deltay and a deltax
 fields that you could use.
-
 
 Once you're done, please proceed to the second game, [[Lunar Lander]].

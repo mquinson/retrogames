@@ -5,11 +5,11 @@ through the creation of games from the eighties. We will program three
 _retrogames_ of increasing complexity.
 
 The only prerequisites is some basic knowledge of the Python
-programming language. Absolute Python beginners should first spend
-some time on [[the PLM|http://plm.telecomnancy.univ-lorraine.fr/]], which
-is an online learning environment to learn the basics of
-programming. Some missions of the PLM could reveal interesting and
-challenging to intermediate and advanced learners too ;)
+programming language. Python beginners should first spend
+some time on [the PLM](http://people.irisa.fr/Martin.Quinson/Teaching/PLM/),
+which is an integrated learning environment dedicated to programming.
+Some of the proposed missions will challenge intermediate and advanced
+learners too ;)
 
 You also need a working environment with Python3 and [a decent code
 editor](A-decent-code-editor). You can choose to use whichever

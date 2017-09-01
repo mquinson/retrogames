@@ -12,12 +12,12 @@ code editor, both lightweight and powerful. It still misses some
 features so I did not switched myself, but you definitely want to give
 it a try.
 
-Personally, I code using [Eclipse](http://www.eclipse.org) myself, but
-I'm not sure that I would advise you to start learning with Eclipse.
-That beast is huge (several Gb of RAM), and not very intuitive for
-learners. But if you want to dig a swimming pool, will you get a light
-and nice spoon, or an heavy-duty excavator? If you decide to go for the
-powerful excavator, pick the Java version of eclipse, then add the
+Personally, I code using [Eclipse](http://www.eclipse.org), but I
+would not advise you to start learning with Eclipse. That beast is
+huge (several Gb of RAM), and not very intuitive for learners. But if
+you want to dig a swimming pool, will you get a light and nice spoon,
+or an heavy-duty excavator? If you decide to go for the powerful
+excavator, pick the Java version of eclipse, then add the
 [PyDev](http://marketplace.eclipse.org/content/pydev-python-ide-eclipse)
 plugin.
 
