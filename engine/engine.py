@@ -192,11 +192,19 @@ def set_mouse_handler(fn):
 
 def register_collision(class1, class2, fn):
 	'''
-	Instructs the game engine to invoke the callback routine fn when
-	a collision is detected between an instance of class1 and an
-	instance of class2.  Note that there is no ordering guaranteed
-	for how game objects are tested for collision, so both combinations
-	of class1/class2 and class2/class1 will need to be registered.
+	Instructs the game engine to invoke the callback routine `fn`. 
+    
+    This routine `fn(obj1, obj2)` is in charge of detecting collisions 
+    between objects, and must react appropriately to the detected 
+    collisions.
+    
+    `fn` is called once per animation step onto each pair of objects
+    [obj1, obj2], that are respectivelly instances of class1 and class2. 
+    
+    There is no ordering guaranteed: only one collision handler will be 
+    called, but it will be the one associated to either [obj1,obj2] or 
+    [obj2,obj1]. So both combinations of class1/class2 and class2/class1 
+    will need to be registered.
 	'''
 	_e.collide[(class1, class2)] = fn
 
