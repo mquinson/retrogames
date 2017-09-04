@@ -75,7 +75,7 @@ to see how to stop the engine.
 
 You can also learn from
 [```eg-box-exit.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-box-exit.py)
-to ensure that your game stops when the box moves out ot the screen.
+to ensure that your game stops when the box moves out out the screen.
 
 ## A game skeleton
 
