@@ -8,9 +8,11 @@ a decent code editor, while gedit is only barely decent. There are
 many sensible editors out there, and you should search for the one
 that you prefer.
 
-Unless you have a good reason, **you are strongly advised to use**
-`geany <http://www.geany.org/>`_ **for this project**. The rest of this page
-is there for your erudition.
+.. important::
+
+  Unless you have a good reason, you are strongly advised to use
+  `geany <http://www.geany.org/>`_ for this project. The rest of this
+  page is there for your erudition.
 
 A lot of people told me that `Atom <ttps://atom.io/>`_ is a very good
 code editor, both lightweight and powerful. It still misses some
