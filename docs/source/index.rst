@@ -21,7 +21,7 @@ and advanced learners too ;)
 You also need a working environment with Python3 and
 :ref:`a decent code editor <code-editor>`.
 You can choose to use whichever environment you want, but I will only
-be able to :ref:`help you with Linux <Installing-Python3-on-Linux.rst>`
+be able to :ref:`help you with Linux <Install_Linux>`
 questions as it is the only systems that I really know. It does NOT
 mean that you have to install Linux for that assignment.
 
@@ -30,11 +30,18 @@ When you are ready, **proceed to your first game creation**:
 
 
 .. toctree::
+   :caption: Initial Setup
    :maxdepth: 1
-   :caption: Contents:
+   :hidden:
 
-        Installing a decent code editor <A-decent-code-editor.rst>
-	Installing Python3 on Linux <Installing-Python3-on-Linux.rst>
+	Python3 on Linux <Installing-Python3-on-Linux.rst>
+        a Decent Code Editor <A-decent-code-editor.rst>
+
+.. toctree::
+   :caption: The Games
+   :maxdepth: 1
+   :hidden:
+
 	Scratch the Rocket <Scratch-the-rocket.rst>
 	     
 Indices and tables
