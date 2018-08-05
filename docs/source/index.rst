@@ -38,15 +38,18 @@ When you are ready, **proceed to your first game creation**:
         a Decent Code Editor <A-decent-code-editor.rst>
 
 .. toctree::
-   :caption: The Games
+   :caption: Writing your Games
    :maxdepth: 1
    :hidden:
 
 	Scratch the Rocket <Scratch-the-rocket.rst>
-	     
-Indices and tables
-==================
+	Lunar Lander <Lunar-Lander.rst>
+	OIDS <OIDS.rst>
+	Concluding Remarks <Concluding_Remarks.rst>
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+.. Indices and tables
+.. ==================
+..
+.. * :ref:`genindex`
+.. * :ref:`modindex`
+.. * :ref:`search`

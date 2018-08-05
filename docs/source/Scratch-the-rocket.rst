@@ -239,8 +239,8 @@ that's the very reason why you really should clean your code: the
 yourself of tomorow will hate the yourself of today if you don't clean
 your code!
 
-Instead of a global named speed, you could use the variable
-lander.deltay. Actually, every game object as a deltay and a deltax
+Instead of a global named `speed`, you could use the variable
+`lander.deltay`. Actually, every game object as a `deltay` and a `deltax`
 fields that you could use.
 
-Once you're done, please proceed to the second game, [[Lunar Lander]].
+Once you're done, please proceed to the second game, :ref:`Lunar-Lander`.
