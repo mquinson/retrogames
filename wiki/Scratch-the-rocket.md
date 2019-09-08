@@ -118,7 +118,7 @@ focused on your game! ;)
 ## Adding some flesh
 
 For now, it's not a rocket, it's a square. Not a surprise that it
-flies so badly! Have a look at 
+flies so badly! There is two solutions here. First have a look at 
 [```eg-poly.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-poly.py),
 register a nice lunar lander shape to the engine, and use it in your
 game. Things will be easier later if your rocket is nicely round.
@@ -133,7 +133,11 @@ set your heading to 90 so that your rocket looks upside.
 		return 90
 ```
 
-Here is what I got.
+But drawing with the turtle sometimes gets annoying. Another approach is to
+declare the polygons that you want to draw as in this example:
+[```eg-shape.py```](https://github.com/mquinson/retrogames/blob/master/engine/eg-shape.py).
+
+Here is what I got at the end.
 
 ![Second screencast of the Rocket game](rocket-step1.gif)
 
