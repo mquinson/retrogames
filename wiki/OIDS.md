@@ -1,22 +1,26 @@
 This one is an open project. The only instruction consists in two
-videos presenting the gameplay of the OIDS game, a block buster of the
-late eighties (click on the images). 
+videos presenting the gameplay of two old block buster of the
+late eighties: Super Transball2 and OIDS (click on the images). Note
+that you can also install the first game on your linux machine (package 
+
+[![Super Transball 2](https://www.youtube.com/watch?v=1HkMM7yd9U0))(https://www.youtube.com/watch?v=1HkMM7yd9U0)
 
 [![OIDS gameplay](http://img.youtube.com/vi/OrtrdDaKIQY/0.jpg)](https://www.youtube.com/embed/OrtrdDaKIQY)
 
 [![OIDS gameplay](http://img.youtube.com/vi/WxhmMGLVjQ4/0.jpg)](https://www.youtube.com/embed/WxhmMGLVjQ4)
 
-As you can see, this resembles to what we made before. You are a
-little lander exploring a cave, and the gravity tends to let you crash
-to the ground. But this time, there is also enemies shooting at you,
-little mens that you should save by landing near them (not *on*
-them), an armor for your lander, limited amount of fuel, fuel refiles,
-teleporters, and much more. 
+As you can see, this resembles to what we made before. Even if Super Transball
+is simpler than OIDS, in both cases you are a little lander exploring a cave,
+and the gravity tends to let you crash to the ground. In addition, some enemies
+are shooting at you, too. In Super Transball, you have to get a big flying ball
+and bring it back up while OIDS is much more evolved: you should save little
+mens by landing near them (not *on* them), an armor for your lander, limited
+amount of fuel, fuel refiles, teleporters, and much more.
 
-You are asked to implement something strongly inspired by this game,
-with imagination and creativity. But given the short time that you
-have to implement this project, you should strive to keep modest and
-implement the features one after the other. 
+You are now asked to implement something inspired by these games, with
+imagination and creativity. But given the short time that you have to
+implement this project, you should strive to keep modest and implement
+the features one after the other. 
 
 Here are some ideas:
 
@@ -44,6 +48,11 @@ defense.
 
 But don't forget: this is a game! Go and have fun implementing it!
 
-
 A last word: don't [spend too much time](TOnotDO) on this project. You
 will have a plenty of nice programming assignments during the year.
+
+Once you're done, you are welcome to return a short video of your game so that I
+can integrate it in there (only if you want to). ```kazam```is a nice program to
+capture a screencast, while ```ffmpeg``` can be used to [convert this screencast
+to a gif](https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line).
+You can add a few sentences to describe your game.
