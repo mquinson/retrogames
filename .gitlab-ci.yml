@@ -2,7 +2,7 @@ image: alpine
 
 pages:
   script:
-  - apk --no-cache add py2-pip python-dev
+  - apk --no-cache add py-pip
   - pip install sphinx sphinx_rtd_theme
   - apk --no-cache add make
   - make -C docs html
