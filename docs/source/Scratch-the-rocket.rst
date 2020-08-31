@@ -138,15 +138,18 @@ Adding some flesh
 -----------------
 
 For now, it's not a rocket, it's a square. Not a surprise that it
-flies so badly! Have a look at `eg-poly.py
-<https://github.com/mquinson/retrogames/blob/master/engine/eg-poly.py>`_,
-register a nice lunar lander shape to the engine, and use it in your
-game. Things will be easier later if your rocket is nicely round.
-Hints: you need to import the Python `turtle module
-<https://docs.python.org/3/library/turtle.html>`_. You can draw your
-shape with the turtle interface (turn left, right, etc), but it's much
-easier to pass a list of points into a "compound" shape. Also, set
-your heading to 90 so that your rocket looks upside.
+flies so badly! Have a look at `eg-shape.py
+<https://github.com/mquinson/retrogames/blob/master/engine/eg-shape.py>`_,
+register a nice lunar lander compound shape from a set of points, and
+use it in your game. Things will be easier later if your rocket is
+nicely round. 
+
+Alternatively, you may prefer to actually draw your rocket with the
+Python `turtle module <https://docs.python.org/3/library/turtle.html>`_ 
+(that you need to import beforehand) using the turtle interface (turn
+left, right, etc), but it's more complex than building compound shapes.
+
+Also, set your heading to 90 so that your rocket looks upside:
 
 .. code-block:: python
 		
