@@ -90,7 +90,7 @@ to see how to stop the engine.
 
 You can also learn from `eg-box-exit.py
 <https://github.com/mquinson/retrogames/blob/master/engine/eg-box-exit.py>`_
-to ensure that your game stops when the box moves out out the screen.
+to ensure that your game stops when the box moves out of the screen.
 
 A game skeleton
 ---------------
@@ -115,7 +115,7 @@ read as follows:
 		speed += 0.5
 
 Now, change your keyboard handler so that pressing on space decreases
-a bit the descent speed, as would a reactor do. Tinker a bit with your
+a bit the descent speed, as a reactor would do. Tinker a bit with your
 game to get the values right: The gravity must not be too heavy nor
 light, and the motor should not be too powerful nor weak.
 
