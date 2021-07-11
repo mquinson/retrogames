@@ -55,3 +55,20 @@ But don't forget: this is a game! Go and have fun implementing it!
 A last word: don't :ref:`spend too much time <TOnotDO>` on this
 project. You will have a plenty of nice programming assignments during
 the year.
+
+Hall of fame
+============
+
+Here are some productions by the students before you.
+
+- Lendy Mulot & Come Neyrand (2019)
+
+.. image:: images/2019-Mulot-Neyrand.gif
+   :alt: Lendy Mulot & Come Neyrand (2019)
+
+
+If you want your name here (it's absolutely optional), you are welcome to return a short video of your game so that I
+can integrate it here. ``kazam`` is a nice program to
+capture a screencast, while ``ffmpeg`` can be used to
+`convert this screencast to a gif <https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line>`_.
+You can add a few sentences to describe your game if you wish
