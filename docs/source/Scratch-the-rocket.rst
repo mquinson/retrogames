@@ -10,38 +10,19 @@ Before we start, if it's not done already, please install :ref:`a
 decent code editor <code-editor>`. 
 Install python3 to get the engine working (``sudo apt install
 python3-tk`` if you happen to use a Debian or Ubuntu machine).  
-
 The last step is to get the game engine. The easiest solution is to
 download and unpack the `zip archive
 <https://github.com/mquinson/retrogames/raw/master/engine.zip>`_, but 
 you can also take this opportunity to learn about git, if you want to.
-That's a wonderful solution to share any kind of text between remote
+
+Git is a powerful solution to share any kind of text between remote
 computers, while keeping track of the history of changes. This is
 incredibly useful when working as a team on a programming project.
+If you :ref:`get the needed files using git <git>`, you will easily be
+able to share your version of the file with others, either your
+teamates or your teachers. But remember that git is really optional
+here.
 
-To use git, you need to first log to our academic hosting system: 
-`ISTIC gitlab <https://gitlab.istic.univ-rennes1.fr/>`_ (use your
-academic credentials to log onto this system). A single configuration
-is mandatory to use it from your computer. Go to your preference
-(click on the round icon on the very top right corner), then "SSH
-keys" and then follow the instructions to generate a key on your
-computer (don't use a passphrase). Once generated, add your new SSH
-key to your GitLab configuration. 
-
-Once you properly configured everything, the following command should
-create a ``retrogames`` directory with all the content you
-need. 
-
-.. code-block:: shell
-
-   git clone git@gitlab.istic.univ-rennes1.fr:mquinson/template-retrogames.git retrogames
-
-.. note::
-
-   If cloning the template doesn't work, simply download and unpack
-   the `zip archive
-   <https://github.com/mquinson/retrogames/raw/master/engine.zip>`_ on
-   your disk, and forget about this git thing for now.
 
 Warming up
 ----------

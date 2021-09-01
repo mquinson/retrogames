@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'RetroGames'
-copyright = '2016-2020, Martin Quinson. Distributed under the CC-BY-SA license.'
+copyright = '2016-2021, Martin Quinson. Distributed under the CC-BY-SA license.'
 author = 'Martin Quinson'
 
 # The short X.Y version

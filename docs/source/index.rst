@@ -36,6 +36,7 @@ When you are ready, **proceed to your first game creation**:
 
 	Python3 on Linux <Installing-Python3-on-Linux.rst>
         a Decent Code Editor <A-decent-code-editor.rst>
+	Git crash course <Git-crash-course.rst>
 
 .. toctree::
    :caption: Writing your Games
