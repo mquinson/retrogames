@@ -171,13 +171,12 @@ Going further
 
 There is much (much) more to say about git and gitlab, but you now
 have the basics to get things done. Congratuations! 
+But don't get fooled. Git is a powerful (and often tricky) tool. 
 
-But don't get fooled. Git is a powerful (and often tricky) tool. You
-will find many tutorials on the internet. `The one from Atlassian
+You will find many tutorials on the internet. `The one from Atlassian
 <https://www.atlassian.com/git/tutorials/what-is-version-control>`_ is
 very good and very complete. Thomas Genet (our colleague at Rennes)
 provide `a very good one in French <http://people.irisa.fr/Thomas.Genet/GEN/CMs/cm4.pdf>`_ (`associated
 video <https://video.univ-rennes1.fr/videos/cm4-quelques-outils-pour-le-genie-logiciel/>`_).
-
 There is even `a little game <https://learngitbranching.js.org/>`_
 that you can play in your browser to learn to use git. 
