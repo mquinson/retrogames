@@ -3,18 +3,50 @@
 Scratch the Rocket
 ==================
 
-Warming up
-----------
+Setup your environment
+----------------------
 
 Before we start, if it's not done already, please install :ref:`a
 decent code editor <code-editor>`. 
 Install python3 to get the engine working (``sudo apt install
-python3-tk`` if you happen to use a Debian or Ubuntu machine).  And finally,
-download and unpack the `game
-engine <http://pages.cpsc.ucalgary.ca/~aycock/engine.tar.gz>`_ (`zip
-archive <https://github.com/mquinson/retrogames/raw/master/engine.zip>`_).
+python3-tk`` if you happen to use a Debian or Ubuntu machine).  
 
-You can shortly try the provided games as an appetizer:
+The last step is to get the game engine. The easiest solution is to
+download and unpack the `zip archive
+<https://github.com/mquinson/retrogames/raw/master/engine.zip>`_, but 
+you can also take this opportunity to learn about git, if you want to.
+That's a wonderful solution to share any kind of text between remote
+computers, while keeping track of the history of changes. This is
+incredibly useful when working as a team on a programming project.
+
+To use git, you need to first log to our academic hosting system: 
+`ISTIC gitlab <https://gitlab.istic.univ-rennes1.fr/>`_ (use your
+academic credentials to log onto this system). A single configuration
+is mandatory to use it from your computer. Go to your preference
+(click on the round icon on the very top right corner), then "SSH
+keys" and then follow the instructions to generate a key on your
+computer (don't use a passphrase). Once generated, add your new SSH
+key to your GitLab configuration. 
+
+Once you properly configured everything, the following command should
+create a ``retrogames`` directory with all the content you
+need. 
+
+.. code-block:: shell
+
+   git clone git@gitlab.istic.univ-rennes1.fr:mquinson/template-retrogames.git retrogames
+
+.. note::
+
+   If cloning the template doesn't work, simply download and unpack
+   the `zip archive
+   <https://github.com/mquinson/retrogames/raw/master/engine.zip>`_ on
+   your disk, and forget about this git thing for now.
+
+Warming up
+----------
+
+Once you got the files, you can shortly try the provided games as an appetizer:
 
 .. code-block:: shell
 
@@ -246,4 +278,4 @@ Instead of a global named `speed`, you could use the variable
 `lander.deltay`. Actually, every game object as a `deltay` and a `deltax`
 fields that you could use.
 
-Once you're done, please proceed to the second game, :ref:`Lunar-Lander`.
+Once you're done, commit your code in git on need, and please proceed to the second game, :ref:`Lunar-Lander`.
