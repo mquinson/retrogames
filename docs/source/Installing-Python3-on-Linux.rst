@@ -22,10 +22,11 @@ master your system. **The only stupid questions are the unasked ones.**
 This page describes several ways to install Linux:
 
 - `In a partition of your disk <Linux_partition>`_, the prefered way.
-- `As a virtual machine <Linux_VM>`_, if you cannot stop using
-  Windows, even for a while.
+- `As the Window's Subsystem Linux <Linux_WSL>`, the fastest way to
+   get a Linux working as a part of you Windows. This is the way to go
+   if you cannot stop using your Windows.
 - `On an USB stick <Linux_stick>`_, if you cannot install anything on
-  that computer. 
+   that computer. 
 
 .. _Linux_partition:
   
@@ -39,7 +40,7 @@ starts. This approach is advised as you get a "real" Linux, with no
 limitation. If you don't know which distribution of Linux to chose
 then pick a Ubuntu. I use Debian myself and many of my friends use
 Arch Linux or even a venerable Gentoo, but Ubuntu is a good first
-choice.
+choice. If you prefer another distribution, then go for it.
 
 Installing Linux is not very complex nowadays. You should find at
 least 20 Gb on your hard disk, backup all your data, download an iso
@@ -51,32 +52,35 @@ instructions of the installer.
 
 But before that, **backup your data before installing Linux**. The
 installation is not dangerous if you make it right, but there is no
-protection. There is many harmful mistakes that you could do in the
+protection. There are some harmful mistakes that you could do in the
 process.
 
-.. _Linux_VM:
+.. _Linux_WSL:
 
-Installing Linux in a Virtual Machine
--------------------------------------
+Installing the Windows' subsystem Linux (WSL2)
+----------------------------------------------
 
-If you want to launch Windows and Linux applications at the same time,
-then you have to put either Windows and Linux in a virtual
-machine. That guest OS (the one within the VM) will run as an
-application of the host OS (the one out of the VM, running on the real
-computer). 
+The `Windows Subsystem Linux <https://docs.microsoft.com/en-us/windows/wsl/>`_
+is an official extension of Windows, provided by Microsoft, that
+allows to use unmodified Linux applications on a Windows system. Once
+installed, you can get *almost* all of the Linux power on your
+existing system. 
 
-Using a VM is not optimal: both OSes share the memory and CPU (so you
-turn a nice computer into two laggy machines), some mouse and
-keyboards actions are intercepted by the host OS and thus not possible
-within the VM. But that's still an interesting approach.
+The main drawback compared to an installation in a partition is that
+both OSes share your resources (CPU, memory), so you can easily turn a
+nice computer into two laggy machines for advanced uses. But WSL2
+remains perfectly OK for the retrogamins project, even with
+not-so-recent computers.
 
-I have a Windows VM on my Linux computer (to test my apps on Windows),
-but I guess that you want to install Linux in a VM on your Windows.
-I'm not very fluent on Windows but there is a plenty of tutorials for
-that. Here is `one
-<http://www.wikihow.com/Install-Ubuntu-on-VirtualBox>`_. It's maybe a
-bit old (not sure) but seems very detailed. If you have a better one,
-please drop me an email.
+If your Windows is too old, WSL may not be an option for you. In this
+case, you could turn to another Virtual Machine instead of the WSL.
+Unfortunately, these other solutions will probably provide a lesser
+integration between Linux and Windows, leading to usability
+difficulties where some mouse and keyboards actions are intercepted by
+the host OS and thus not possible within the VM. If you are still
+interested, here is `an old but interesting tutorial
+<http://www.wikihow.com/Install-Ubuntu-on-VirtualBox>`_.  If you have
+a better one, please drop me an email.
 
 .. _Linux_stick:
 
