@@ -3,19 +3,20 @@
 Installing Python3 on Linux
 ===========================
 
-If you are serious about computers and computer science, you will need
-probably have to have a Linux partition at some point, or at least a
+If you are serious about computers and computer science, you need a
+Linux to play with. Either a native one in partition, or at least a
 Linux virtual machine. But don't worry, using Linux is very easy
 nowadays. In my opinion, Linux is even much simpler and more intuitive
 (once you get the general ideas) than Windows or Mac. If you have
 issues mastering your Windows system, then is not just you. Windows is
-actually difficult to master.  You should try Linux to see whether
-it's a better fit for you.
+actually difficult to master. Windows is only easy as long as you're
+OK with a limited understanding of what's going on. You should try
+Linux to see whether it's a better fit for you.
 
 **That being said, the first steps with Linux may be difficult.** The
 strong point of Linux is that there is a philosophy underlying, so
 when you start getting it, you get it faster. But there is still a
-learning curve, of course. Of course, nobody knows it before getting
+learning curve. Of course, nobody knows it before getting
 introduced to it. But the good news is that I am willing to help you
 master your system. **The only stupid questions are the unasked ones.**
 
