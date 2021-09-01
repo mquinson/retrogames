@@ -19,32 +19,40 @@ code editor, both lightweight and powerful. It still misses some
 features so I did not switched myself, but you definitely want to give
 it a try.
 
-Personally, I code using `Eclipse <http://www.eclipse.org>`_, but I
-would not advise you to start learning with Eclipse. That beast is
-huge (several Gb of RAM), and not very intuitive for learners. But if
-you want to dig a swimming pool, will you get a light and nice spoon,
-or an heavy-duty excavator? If you decide to go for the powerful
-excavator, pick the Java version of eclipse, then add the
+Personally, I used to code with `Eclipse <http://www.eclipse.org>`_
+for years, but I would not advise you to start learning with Eclipse.
+That beast is huge (several Gb of RAM), and not very intuitive for
+learners. But if you want to dig a swimming pool, will you get a light
+and nice spoon, or an heavy-duty excavator? If you decide to go for
+the powerful excavator, pick the Java version of eclipse, then add the
 `PyDev <http://marketplace.eclipse.org/content/pydev-python-ide-eclipse>`_
 plugin.
 
-When not using Eclipse, I am a happy
-`Emacs <https://www.gnu.org/software/emacs/>`_ user. That's another
-venerable editor (both emacs and Vim first came out in 1976), which
-main feature is its configuration power: you can do everything in
-emacs, provided that you configure it correctly (or develop the
-right plugin). But that's also its main drawback: configuring the
-perfect environment can become very time consuming. For now, if you
-go for emacs (which would earn you my respect), you should just add
-the following to the file ~/.emacs to enable Ctrl-C and friends.
+I am also a happy `Emacs <https://www.gnu.org/software/emacs/>`_ user.
+This venerable editor (both emacs and Vim first came out in 1976) is
+known for its configuration power: you can do everything in emacs,
+provided that you configure it correctly (or develop the right
+plugin). But that's also its main drawback: configuring the perfect
+environment can become very time consuming. For now, if you go for
+emacs (which would earn you my respect), you should just add the
+following to the file ~/.emacs to enable Ctrl-C and friends.
 ``(cua-mode t)``
 
-Real Hackers certainly prefer Vim. You will never find any Unix box
-where it is not installed. Even if I avoid this editor when I can, I
-learned its basic usage over the years. This `online
-game <http://vim-adventures.com/>`_ constitutes a perfect introduction
-to Vim. And it's fun too, so you can play it even if you don't plan to
-use Vim on a day-to-day basis :)
+These days, I often use `Codium <https://github.com/VSCodium/vscodium/>`_,
+a Free/Libre Open Source version of VS code (see `here
+<https://github.com/VSCodium/vscodium/#why>` for an explanation of why
+I'm not using VS code directly), but I'm not sure I'd advise this
+powerful tool to learners. The comfort you get from Codium may hinder
+your learning experience: as the robot solves all issues for you, you
+don't really get to understand these issues and how to fix them by
+yourself.
+
+To the other end of the picture, Real Hackers certainly prefer Vim.
+You will never find any Unix box where it is not installed. Even if I
+avoid this editor when I can, I learned its basic usage over the
+years. This `online game <http://vim-adventures.com/>`_ constitutes a
+perfect introduction to Vim. And it's fun too, so you can play it even
+if you don't plan to use Vim on a day-to-day basis :)
 
 If you are using Mac, then you will probably like `Sublime
 Text <http://www.sublimetext.com/>`_. Windows people sometimes prefer
