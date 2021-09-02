@@ -12,8 +12,8 @@ Git crash course
 Git is a wonderful tool to share some text between several computers,
 while keeping track of the history of changes. This is incredibly
 useful when working as a team on a programming project: when one team
-member modifies a file (to add a feature), it clearly document the
-change. She then pushes these changes on a shared project, from which
+member modifies a file (to add a feature), it clearly documents the
+change. They then pushes these changes on a shared project, from which
 others can get these change. They do so by synchronizing their local
 version with the shared project.
 
@@ -88,9 +88,9 @@ If your name is GIZMODO, you will probably type the following:
    git clone git@gitlab.istic.univ-rennes1.fr:GIZMODO/template-retrogames.git retrogames
 
 If you want to share your work with a teamate (once you have a
-teamate), add this person as a project member on GitLab (she will get
+teamate), add this person as a project member on GitLab (they will get
 a mail to confirm). After clicking on the received link to confirm,
-she can clone your repository just as you did above.
+they can clone your repository just as you did above.
 
 Editing a file
 --------------
