@@ -103,11 +103,14 @@ removed by the change while lines starting with a ``+`` were added.
 
 For example, the following output simply means that I changed the
 first line of the file, changing ``Retrogames template files`` into
-``Retrogame, by me``. The other lines (starting with `` ``) are
-unchanged by this edition.
+``Retrogame, by me``. The other lines (starting with a space) are
+unchanged by this edition. You can safely ignore the lines on top.
 
 .. code:: diff
 
+   $ git diff
+   diff --git a/README.md b/README.md
+   index 5dcb136..dcf375f 100644
    --- a/README.md
    +++ b/README.md
    @@ -1,4 +1,4 @@
@@ -133,20 +136,19 @@ name` will be used as a documentation to the change introduced, and
 finally ``README.md`` asks git to only consider the changes of that
 file.
 
-If you type ``git diff`` again, the command yields no output, because
-there is no file edition that is not already commited to your
-repository.
+Typing ``git diff`` again yields no output, because there is no file
+edition that is not already commited to your repository.
 
 Git will refuse to commit changes to files it does not track, so you
 need to  **add new files** before you can commit them.
 
 .. code:: shell
 
-   # create newfile.py on disk
-   git commit -m "something" newfile.py # This is an error 
+   # create mygame.py on disk
+   git commit -m "something" mygame.py # This is an error
 
-   git add newfile.py # now git knows about this file
-   git commit -m "something" newfile.py # no error
+   git add mygame.py # now git knows about this file
+   git commit -m "something" mygame.py # OK
    
 
 Synchronizing your repository
