@@ -6,7 +6,7 @@ Git crash course
 .. important::
 
   Remember that git is optionnal in this project. It is perfectly OK
-  not not use git and use another approach if you ever need to
+  to not use git and use another approach if you ever need to
   synchronize your files.
 
 Git is a wonderful tool to share some text between several computers,
